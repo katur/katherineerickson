@@ -4,5 +4,5 @@ body > ul > li {
 
 #big-year img {
 	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-	margin-left: 20px;
+	margin: 0 0 40px 40px;
 }
