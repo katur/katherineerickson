@@ -1,4 +1,4 @@
-Barebones portfolio site
+barebones portfolio site
 ========================
 
 Yup. Nothing more to say here.
