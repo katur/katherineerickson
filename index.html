@@ -2,6 +2,7 @@
   <head>
     <title>Katherine Erickson</title>
     <link href="style.css" rel="stylesheet" type="text/css">
+    
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-10086645-1']);
@@ -15,142 +16,148 @@
     </script>
   </head>
 
-  <body>
-    <h1>Katherine Erickson</h1>
+  <body id="home">
+    <h1>
+        <img src="images/favicons/squirrel.ico"/>
+        Katherine Erickson
+    </h1>
 
-    <h2>Web Development</h2>
-    <ul>
-      <li>
-        Genome-Wide Genetic Interactions, 2014 (in progress)
-        <br>
-        <i>
-          To record, navigate, and analyze millions of pairwise
-          gene knockdowns for an experiment to uncover genetic interactions.
-          Django/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="https://www.lucidchart.com/documents/view/4eb4bac8-5339-ae33-8c00-5ccd0a0085f4">Database Schema</a>
-          </li>
-        </ul>
-      </li>
-      
-      <li>
-        <a href="http://new.lauraerickson.com">Laura Erickson's For The Birds, 2014 (in progress)</a>
-        <br>
-        <i>
-          A birder's portfolio site. Content is navigable by bird species, or by her work 
-          (including radio show, blog, photographs, etc.).
-          Django/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="https://www.lucidchart.com/documents/view/a75393ca-f3ce-45e0-8658-e901ae2e41a0">Database Schema</a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="http://gunsiano.webfactional.com">Gunsalus & Piano Labs</a>, 2014
-        <br>
-        <i>
-          Website for a genomics lab, including public-facing pages, as well as members-only 
-	  pages to navigate and query the lab's databases.
-          Django/MySQL.
-        </i>
-        <ul>
-          <!--<li>
-            <a href="screenshots.html#gunsiano">Screenshots</a>
-          </li>-->
-          <li>
-            <a href="http://github.com/katur/gunsiano">Github</a>
-          </li>
-          <li>
-            <a href="https://www.lucidchart.com/documents/view/492c-0ebc-51d33178-9110-78400a001d4e">
-              Database Schema
-            </a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="http://eelocalizome.bio.nyu.edu">Early Embryo Localizome</a>, 2013
-        <br>
-        <i>
-          To explore the results (including videos) from
-          a large-scale protein localization study.
-          Django/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="screenshots.html#localizome">Screenshots</a>
-          </li>
-          <li>
-            <a href="http://github.com/katur/localizome">Github</a>
-          </li>
-          <li>
-            <a href="https://www.lucidchart.com/documents/view/4e5c-8328-51e095b2-a5dc-0d860a001900">
-              Database Schema
-            </a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="http://conservationbigyear.com">Conservation Big Year</a>, 2013
-        <br>
-        <i>
-          To track the progress of a birder's yearlong
-          project to see birds of conservation concern. 
-          Wordpress (with custom theme and pages)/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="screenshots.html#big-year">Screenshots</a>
-          </li>
-          <li>
-            <a href="http://github.com/katur/conservation_big_year">Github</a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        Bacteria growth history website, 2010
-        <br>
-        <i>
-          To visualize the growth history of bacterial libraries.
-          PHP/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="screenshots.html#bacteria">Screenshots</a>
-          </li>
-          <li>
-            <a href="http://github.com/katur/lab_tools">Github</a>
-          </li>
-        </ul>
-      </li>
-
-      <li>
-        <a href="http://roadkill.michaelgeraci.com/">Roadkill Across America</a>,
-        created with <a href="http://mgeraci.com">Michael P. Geraci</a>, 2010
-        <br>
-        <i>
-          To document roadkill observed on a cross-country bicycle trip.
-          PHP/MySQL.
-        </i>
-        <ul>
-          <li>
-            <a href="screenshots.html#roadkill">Screenshots</a>
-          </li>
-        </ul>
-      </li>
+    <h2>resume</h2>
+    <ul class="inline">
+      <li><a href="http://github.com/katur/resume">LaTeX</a></li>
+      <li><a href="http://github.com/katur/resume/blob/master/erickson_resume.pdf?raw=true">PDF</a></li>
     </ul>
+    
+    <br>
+    <h2>some things I've made</h2>
+    <ul>
+      <li><h3>Django websites (stack: MySQL, jQuery, Sass)</h3></li>
+      <ul>
+        <li>
+          <h4>
+              <img src="images/favicons/worm.ico"/>
+              Genome-Wide Genetic Interactions (in progress)
+          </h4>
+          <p>
+            Interface to record, navigate, and analyze millions of pairwise
+            gene knockdowns for an experiment to uncover genetic interactions.
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="https://www.lucidchart.com/documents/view/4eb4bac8-5339-ae33-8c00-5ccd0a0085f4">database schema</a>
+            </li>
+            <li>
+              <a href="http://github.com/katur/eegi">code</a>
+            </li>
+          </ul>
+        </li>
 
-    <h2>Resume</h2>
-    <div id="resume">
-      <a href="http://github.com/katur/resume/blob/master/erickson_resume.pdf?raw=true">PDF</a>
-      <a href="http://github.com/katur/resume">LaTeX on Github</a>
-    </div>
+        <li>
+          <h4>
+              <img src="images/favicons/chickadee.ico"/>
+              <a href="http://new.lauraerickson.com">Laura Erickson's For The Birds</a> (in progress)
+          </h4>
+          <p>
+            A birder's portfolio and resource to learn about birds. 
+            Content is navigable both by bird species, and also by her work 
+            (including radio show, blog, photographs, etc.).
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="https://www.lucidchart.com/documents/view/a75393ca-f3ce-45e0-8658-e901ae2e41a0">database schema</a>
+            </li>
+            <li>
+              <a href="http://github.com/katur/forthebirds">code</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4>
+              <img src="images/favicons/flask.ico"/>
+              <a href="http://gunsiano.webfactional.com">Gunsalus & Piano Labs</a>, 2014
+          </h4>
+          <p>
+            Website for a genomics lab, including public-facing pages, as well as members-only 
+            pages to navigate and query the lab's databases.
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="https://www.lucidchart.com/documents/view/492c-0ebc-51d33178-9110-78400a001d4e">
+                database schema
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/katur/gunsiano">code</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4>
+              <img src="images/favicons/localizome.ico"/>
+              <a href="http://eelocalizome.bio.nyu.edu">Early Embryo Localizome</a>, 2013
+          </h4>
+          <p>
+            Interface to explore the results (including videos) from
+            a large-scale protein localization study.
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="https://www.lucidchart.com/documents/view/4e5c-8328-51e095b2-a5dc-0d860a001900">
+                database schema
+              </a>
+            </li>
+            <li>
+              <a href="http://github.com/katur/localizome">code</a>
+            </li>
+            <li>
+              <a href="screenshots.html#localizome">screenshots</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+      
+      <li><h3>icky PHP/MySQL websites</h3></li>
+      <ul>
+        <li>
+          <h4><a href="http://conservationbigyear.com">Conservation Big Year</a>, 2013</h4>
+          <p>
+            Wordpress custom pages and theme to track the progress of a birder's yearlong
+            project to see birds of conservation concern. 
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="screenshots.html#big-year">screenshots</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4><a href="http://lab.katherineerickson.com">Bacteria Library Growth History</a>, 2010</h4>
+          <p>
+            Interface to visualize the growth history of bacteria libraries.
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="screenshots.html#bacteria">screenshots</a>
+            </li>
+          </ul>
+        </li>
+
+        <li>
+          <h4><a href="http://roadkill.michaelgeraci.com/">Roadkill Across America</a>,
+          created with <a href="http://mgeraci.com">Michael P. Geraci</a>, 2010</h4>
+          <p>
+            Website documenting roadkill observed on a cross-country bicycle trip.
+          </p>
+          <ul class="inline">
+            <li>
+              <a href="screenshots.html#roadkill">screenshots</a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </ul>
   </body>
 </html>

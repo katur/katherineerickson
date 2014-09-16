@@ -1,18 +1,40 @@
-body > ul > li {
-	margin-bottom: 30px;
+#home ul li {
+  list-style-type: none;
 }
 
-#resume a {
-	margin-left: 30px;
+.inline li {
+  display: inline;
+  padding-right: 20px;
 }
 
-img {
-	display: block;
-	clear: both;
-	box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
-	margin: 0 0 40px 40px;
+#home img {
+  display: inline;
+  padding-right: 5px;
+  height: 16px;
+}
+
+#home h1 img {
+  position: relative;
+  bottom: 2px;
+}
+
+#home h4 img {
+  position: relative;
+  top: 2px;
+}
+
+#home h4 {
+  position: relative;
+  right: 26px;
+}
+
+#screenshots img {
+  display: block;
+  clear: both;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.7);
+  margin: 0 0 40px 40px;
 }
 
 #screenshots div {
-	margin-bottom: 150px;
+  margin-bottom: 150px;
 }
