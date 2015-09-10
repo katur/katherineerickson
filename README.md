@@ -1,2 +1,1 @@
-HTML is important
-=================
+HTML is important.
