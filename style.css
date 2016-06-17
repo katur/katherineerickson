@@ -29,6 +29,10 @@
   right: 26px;
 }
 
+#home .tech {
+  font-style: italic;
+}
+
 #screenshots img {
   display: block;
   clear: both;
