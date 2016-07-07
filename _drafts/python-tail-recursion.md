@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Python Tail Recursion bug"
-categories: python
+tags: python
 ---
 
 *This* is my first post!
