@@ -6,53 +6,9 @@
 </description>
     <link>http://katherineerickson.com/</link>
     <atom:link href="http://katherineerickson.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 07 Jul 2016 14:37:45 -0400</pubDate>
-    <lastBuildDate>Thu, 07 Jul 2016 14:37:45 -0400</lastBuildDate>
+    <pubDate>Thu, 07 Jul 2016 14:57:21 -0400</pubDate>
+    <lastBuildDate>Thu, 07 Jul 2016 14:57:21 -0400</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
-    
-      <item>
-        <title>Python Tail Recursion bug</title>
-        <description>&lt;p&gt;Have you ever had a moment where you wondered how you could program in a
-language for years, and not understand some of its most basic features?&lt;/p&gt;
-
-&lt;p&gt;For my &lt;a href=&quot;http://recurse.com&quot;&gt;Recurse Center&lt;/a&gt; pairing interview, I made
-Connect Four in python. I separated my model (holding the game state
-and game logic) from my views (I had a separate GUI view and command line
-view for playing the game, plus a logging view that simply logs events).&lt;/p&gt;
-
-&lt;p&gt;For the two to communicate without the model being aware of which (if any)
-views are listening, I used a publish-subscribe (pubsub) pattern.
-Views “subscribe” to the model, which means that they assign particular
-functions to be called when a particular action occurs.
-The model “publishes” that an action occurred, which results in any
-subscribed callbacks being called.&lt;/p&gt;
-
-&lt;p&gt;In essence, what happens throughout the game is:
-- something happens in the model (e.g. a disc being placed at a particular spot
-  in the board)
-- the model informs the views (indirectly, via pubsub)
-- the view process this information (e.g., by coloring a square)
-- some user action (e.g. the next player playing a disc in some column)
-  results in the view calling the model directly.&lt;/p&gt;
-
-&lt;p&gt;So the game loop is: model - pubsub - view - model - pubsub - view
-(essentially, model - view - model - view).&lt;/p&gt;
-
-&lt;p&gt;So what’s the problem with this?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Hint:&lt;/strong&gt; While I didn’t have issues with the GUI view, after playing about
-12 games with the command line view, I got a stack overflow!&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Answer:&lt;/strong&gt; Python doesn’t implement tail recursion.&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Jul 2016 14:37:45 -0400</pubDate>
-        <link>http://katherineerickson.com/2016/07/07/python-tail-recursion.html</link>
-        <guid isPermaLink="true">http://katherineerickson.com/2016/07/07/python-tail-recursion.html</guid>
-        
-        <category>python</category>
-        
-        
-      </item>
     
       <item>
         <title>Test JS in Markdown</title>
