@@ -8,7 +8,8 @@ Have you ever had a moment where you wondered how you could program in a
 language for years, and not understand some of its most basic features?
 
 For my [Recurse Center](http://recurse.com) pairing interview, I made
-Connect Four in python. I separated my model (holding the game state
+[Connect Four](https://github.com/katur/connectfour) in Python.
+I separated my model (holding the game state
 and game logic) from my views (I had a separate GUI view and command line
 view for playing the game, plus a logging view that simply logs events).
 
@@ -20,12 +21,13 @@ The model "publishes" that an action occurred, which results in any
 subscribed callbacks being called.
 
 In essence, what happens throughout the game is:
-- something happens in the model (e.g. a disc being placed at a particular spot
-  in the board)
-- the model informs the views (indirectly, via pubsub)
-- the view process this information (e.g., by coloring a square)
-- some user action (e.g. the next player playing a disc in some column)
-  results in the view calling the model directly.
+
+1. something happens in the model (e.g., a disc being placed at a particular
+   spot in the board)
+1. the model informs the views (indirectly, via pubsub)
+1. the view process this information (e.g., by coloring a square)
+1. some user action (e.g., the next player playing a disc in some column)
+   results in the view calling the model directly.
 
 So the game loop is: model - pubsub - view - model - pubsub - view
 (essentially, model - view - model - view).
