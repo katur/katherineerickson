@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Projects
-permalink: /projects/
+permalink: /
 menu: main
 order: 0
 ---
@@ -64,7 +64,7 @@ order: 0
   - [view within NYU network](http://eelocalizome.bio.nyu.edu)
   - [code](http://github.com/katur/localizome)
   - [schema](https://www.lucidchart.com/documents/view/7b1804c6-01fd-47b8-b79d-db626749afdc)
-  - [screenshots](/screenshots.html#localizome)
+  - [screenshots](/screenshots#localizome)
 
 
 - #### ![prothonotary warbler icon](/images/favicons/prothonotary.ico) [Conservation Big Year](http://www.conservationbigyear.com), 2013
@@ -74,7 +74,7 @@ order: 0
   Wordpress custom pages and theme to track the progress of a
   birder's yearlong project to see birds of conservation concern.
 
-  - [screenshots](/screenshots.html#big-year)
+  - [screenshots](/screenshots#big-year)
 
 
 - #### ![bacteria growth history icon](/images/favicons/bacteria.ico) [Bacteria Library Growth History](http://lab.katherineerickson.com), 2010
@@ -83,7 +83,7 @@ order: 0
 
   Interface to visualize the growth history of bacteria libraries.
 
-  - [screenshots](/screenshots.html#bacteria)
+  - [screenshots](/screenshots#bacteria)
 
 
 - #### ![roadkill site icon](/images/favicons/roadkill.ico) [Roadkill Across America](http://roadkill.michaelgeraci.com/) created with [Michael P. Geraci](http://michaelgeraci.com), 2010
@@ -93,4 +93,4 @@ order: 0
   Website documenting roadkill observed on a cross-country
   bicycle trip.
 
-  - [screenshots](/screenshots.html#roadkill)
+  - [screenshots](/screenshots#roadkill)
