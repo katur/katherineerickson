@@ -6,5 +6,6 @@ menu: main
 order: 1
 ---
 
-- [PDF](https://github.com/katur/resume/blob/master/erickson_resume.pdf)
+- [PDF -- download](https://github.com/katur/resume/raw/master/erickson_resume.pdf)
+- [PDF -- view](https://github.com/katur/resume/blob/master/erickson_resume.pdf)
 - [LaTeX](http://github.com/katur/resume)
